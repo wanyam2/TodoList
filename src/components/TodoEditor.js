@@ -46,11 +46,8 @@ const TodoEditor = ({onCreate}) => {
                     <button onClick={onSubmit}>추가</button>
                 </div>
             ) : (
-
                 <button onClick={handleButtonClick}>+</button>
             )}
-
-
         </div>
     );
 };
