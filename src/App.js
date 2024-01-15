@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+<<<<<<< Updated upstream
 import TodoEditor from "./components/TodoEditor";
 import TodoList from "./components/TodoList";
 import  { useState, useRef } from "react";
@@ -28,7 +29,6 @@ const mockTodo = [
 function App() {
   const [todo, setTodo] = useState(mockTodo);
   const idRef = useRef(3);
->>>>>>> Stashed changes
 
   const onCreate = (content) => {
     const newItem = {
@@ -60,5 +60,16 @@ function App() {
         <TodoList todo={todo} onUpdate={onUpdate} onDelete={onDelete} />
       </div>
   );
+=======
+import TodoList from "./components/TodoList";
+
+function App() {
+    return (
+        <div className="App">
+            <Header />
+            <TodoList />
+        </div>
+    );
+>>>>>>> Stashed changes
 }
 export default App;
