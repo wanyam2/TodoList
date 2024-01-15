@@ -1,0 +1,10 @@
+.TodoList .list_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.TodoList {
+    background-color: #F3F2F2;
+}
