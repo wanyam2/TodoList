@@ -46,7 +46,9 @@ const TodoEditor = ({onCreate}) => {
                     <button onClick={onSubmit}>추가</button>
                 </div>
             ) : (
+                <div className={"editor_wrapper2"}>
                 <button onClick={handleButtonClick}>+</button>
+                </div>
             )}
         </div>
     );
