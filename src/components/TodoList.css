@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-
 .TodoList .list_wrapper {
     display: flex;
     flex-direction: column;
@@ -7,17 +5,18 @@
 
 }
 
-.TodoList {
-    background-color: #F3F2F2;
-=======
-.TodoList {
->>>>>>> Stashed changes
-    text-align: center;
+.search {
+    padding: 10px 20px 30px 40px;
 }
 
-.searchContainer {
-    display: flex;
+.TodoList {
+    text-align: center;
+
 }
+
+/*.searchContainer {*/
+/*    display: flex;*/
+/*}*/
 
 
 .searchbar {

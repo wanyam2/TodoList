@@ -5,15 +5,17 @@
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(212, 210, 210, 0.891);
-    font-size: small;
+    /*border-bottom: 1px solid rgba(212, 210, 210, 0.891);*/
+    font-size: medium;
+    background-color: lavenderblush;
+    border-radius: 10px;
 }
 
 .TodoItem .btn_col button{
-    background-color: #8ACDD7;
+    background-color: cornflowerblue;
     height: 15px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: none;
 }
 
 .TodoItem .checkbox_col {
@@ -26,7 +28,7 @@
 
 .TodoItem .title_col {
     flex: 1;
-    
+
 }
 
 .TodoItem .delete_col {

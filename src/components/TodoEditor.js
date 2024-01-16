@@ -6,6 +6,7 @@ const TodoEditor = ({onCreate}) => {
     const [content, setContent] = useState("");
     const inputRef = useRef();
     const [open, setOpen] = useState(false);
+
     const onChangeContent = (e) => {
         setContent(e.target.value);
     };
