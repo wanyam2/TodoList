@@ -1,47 +1,31 @@
-import { useState } from "react";
-<<<<<<< Updated upstream
+import {useState} from "react";
 import TodoItem from './TodoItem';
 import "./TodoList.css";
 
-const TodoList = ({ todo , onUpdate, onDelete }) => {
-    const [search, setSearch] = useState("");
-    const onChangeSearch = (e) => {
-        setSearch(e.target.value);
-    };
-=======
-import "./TodoList.css";
 
-
-const TodoList = ({ todo, onUpdate, onDelete }) => {
+const TodoList = ({todo, onUpdate, onDelete}) => {
     const [search, setSearch] = useState("");
 
     const onChangeSearch = (e) => {
         setSearch(e.target.value);
     };
-
->>>>>>> Stashed changes
     const handleSearch = () => {
         const searchResult = getSearchResult();
         console.log("검색 결과:", searchResult);
     };
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
+
     const getSearchResult = () => {
         return search === ""
             ? todo
             : todo.filter((it) =>
-<<<<<<< Updated upstream
-                it.content && it.content.toLowerCase().includes(search.toLowerCase())
-=======
-                it.content.toLowerCase().includes(search.toLowerCase())
->>>>>>> Stashed changes
-            );
+
+                it.content && it.content.toLowerCase().includes(search.toLowerCase()));
     };
 
     return (
         <div className="TodoList">
+            <div className="search">
             <input
                 value={search}
                 onChange={onChangeSearch}
@@ -51,8 +35,7 @@ const TodoList = ({ todo, onUpdate, onDelete }) => {
             <button onClick={handleSearch} className="searchButton">
                 🔍
             </button>
-<<<<<<< Updated upstream
-
+            </div>
             <div className='list_wrapper'>
                 {getSearchResult().map((it) => (
                     <TodoItem
@@ -63,8 +46,6 @@ const TodoList = ({ todo, onUpdate, onDelete }) => {
                     />
                 ))}
             </div>
-=======
->>>>>>> Stashed changes
         </div>
     );
 };

@@ -1,7 +1,8 @@
+
 .TodoEditor .editor_wrapper {
     width: 100%;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .TodoEditor input {
@@ -33,4 +34,6 @@
     border-radius: 50%;
     border: none;
     margin: 0 auto;
-}
+    display: flex;
+
+   }

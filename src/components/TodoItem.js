@@ -4,9 +4,9 @@ import { FaTrash } from "react-icons/fa";
 
 export const TodoItem = ({ id, content, isDone, onDelete}) => 
 {
-    const onChangeCheckbox = () => {
-        ontimeupdate(id);
-    };
+    // const onChangeCheckbox = () => {
+    //     ontimeupdate(id);
+    // };
 
     const onClickDelete = () => {
         onDelete(id);
@@ -21,9 +21,9 @@ export const TodoItem = ({ id, content, isDone, onDelete}) =>
         <div className="delete_col">
             <FaTrash onClick={onClickDelete}></FaTrash>
         </div>
-        <div className="checkbox_col">
-            <input type = "checkbox" />
-        </div>
+            <div className="checkbox_col">
+                <input checked={isDone} type = "checkbox" />
+            </div>
         </div>
     );
 };
