@@ -1,0 +1,14 @@
+.Header {
+    text-align: center;
+    border-bottom: 1px solid rgba(150, 147, 147, 0.247);
+}
+
+.Header h5 {
+    color: #D7567F;
+    margin-right: auto;
+}
+
+.Header h1 {
+    color: #D24C75;
+    margin-right: auto;
+}

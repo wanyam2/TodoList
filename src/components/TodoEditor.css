@@ -1,0 +1,40 @@
+
+.TodoEditor .editor_wrapper {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.TodoEditor input {
+    flex: 1;
+    box-sizing: border-box;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.TodoEditor input:focus {
+    outline: none;
+    border: 1px solid pink;
+}
+
+.editor_wrapper button {
+    cursor: pointer;
+    width: 80px;
+    border: none;
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+}
+
+.editor_wrapper2 button {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
