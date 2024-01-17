@@ -33,6 +33,8 @@
     width: 50px;
     border-radius: 50%;
     border: none;
+    justify-content: center; /* 가로 방향 가운데 정렬 */
+    align-items: center; /* 세로 방향 가운데 정렬 */
     margin: 0 auto;
     display: flex;
 

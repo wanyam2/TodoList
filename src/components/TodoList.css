@@ -35,8 +35,11 @@
 
     outline: none;
     border: 2px solid #D24C75;
+}
 
-
+.TodoList button:focus{
+    outline: none;
+    border: #D24C75;
 }
 
 .searchButton {
