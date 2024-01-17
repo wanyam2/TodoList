@@ -6,9 +6,7 @@
 }
 
 .search {
-    display: flex;
-    margin-right: auto;
-    padding-bottom: 10px;
+    padding: 10px 20px 30px 40px;
 }
 
 .TodoList {
