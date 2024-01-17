@@ -25,19 +25,11 @@
 
 
 .searchbar {
-<<<<<<< Updated upstream
-    width: 100%;
-    border: 2px solid pink; /* 테두리 색상 */
-    border-radius: 10px; /* 모서리 둥글게 */
-    padding: 8px; /* 내부 여백 */
-    font-size: 16px; /* 글자 크기 */
-=======
     width: 100%; /* 부모 요소(.search)의 100% 너비를 사용하도록 변경 */
     border: 2px solid pink;
     border-radius: 10px;
     padding: 8px;
     font-size: 16px;
->>>>>>> Stashed changes
 }
 
 .searchbar::placeholder {
