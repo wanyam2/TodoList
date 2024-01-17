@@ -11,13 +11,24 @@
     border-radius: 10px;
 }
 
+<<<<<<< Updated upstream
 .TodoItem .btn_col button{
     background-color: rgb(235, 180, 221);
     height: 15px;
     border-radius: 50%;
     border: none;
     margin-left: 3px;
+=======
+.TodoItem .btn_col button {
+    background-color: rgb(235, 180, 221);
+    height: 15px; /* 크기 조절 */
+    width: 15px;  /* 크기 조절 */
+    border-radius: 50%;
+    border: none;
+    margin-left: 11px;
+>>>>>>> Stashed changes
 }
+
 
 .TodoItem .checkbox_col {
     cursor: pointer; /* 커서가 박스 근처에서만 포인터로 변경되는데? */
@@ -25,6 +36,7 @@
     border: none;
     border-radius: 5px;
     padding: 5px;
+    margin-right: 10px;
 }
 
 .TodoItem .title_col {

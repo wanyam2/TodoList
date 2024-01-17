@@ -6,24 +6,24 @@ import TodoList from "./components/TodoList";
 import  { useState, useRef } from "react";
 
 const mockTodo = [
-  {
-    id: 0,
-    isDone: false,
-    content: "React 공부하기",
-    createdDate: new Date().getTime(),
-  },
-  {
-    id: 1,
-    isDone: false,
-    content: "빨래 널기",
-    createdDate: new Date().getTime(),
-  },
-  {
-    id: 2,
-    isDone: false,
-    content: "노래 연습하기",
-    createdDate: new Date().getTime(),
-  },
+    {
+        id: 0,
+        isDone: false,
+        content: "React 공부하기",
+        createdDate: new Date().getTime(),
+    },
+    {
+        id: 1,
+        isDone: false,
+        content: "빨래 널기",
+        createdDate: new Date().getTime(),
+    },
+    {
+        id: 2,
+        isDone: false,
+        content: "노래 연습하기",
+        createdDate: new Date().getTime(),
+    },
 ];
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
     const onUpdate = (targetId) => {
         setTodo(
             todo.map((it) =>
-                it.id === targetId ? {...it, isDone: !it.isDone} : it
+                it.id === targetId ? { ...it, isDone: !it.isDone } : it
             )
         );
     };

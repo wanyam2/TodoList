@@ -26,15 +26,15 @@ const TodoList = ({todo, onUpdate, onDelete}) => {
     return (
         <div className="TodoList">
             <div className="search">
-            <input
-                value={search}
-                onChange={onChangeSearch}
-                className="searchbar"
-                placeholder="검색어를 입력하세요"
-            />
-            <button onClick={handleSearch} className="searchButton">
-                🔍
-            </button>
+                <input
+                    value={search}
+                    onChange={onChangeSearch}
+                    className="searchbar"
+                    placeholder="검색어를 입력하세요"
+                />
+                <button onClick={handleSearch} className="searchButton">
+                    🔍
+                </button>
             </div>
             <div className='list_wrapper'>
                 {getSearchResult().map((it) => (
