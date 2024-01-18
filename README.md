@@ -42,8 +42,14 @@ TodoEditor : @Boyeon-Shin
 
 ![image](https://github.com/wanyam2/TodoList/assets/131340668/782b7c64-6447-49cf-b28b-66b761a67f1b)
 
-- 검색어 입력창 너비 조절
+- 검색어 입력창 너비 조정
 - 체크박스 활성화
 - 인덱스 버튼 크기 조정
+
+(3)
+<img width="1162" alt="스크린샷 2024-01-18 오전 9 50 27" src="https://github.com/wanyam2/TodoList/assets/131340668/2b4c2d9a-6837-4acc-af06-65b4edc0eefc">
+
+- 검색어 입력창 간격 조정
+- 추가 버튼 사이즈 조정
 
 </div>
