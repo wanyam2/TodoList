@@ -36,6 +36,10 @@
     color: #BE2457;
 }
 
+.searchButton {
+    margin-left: 10px;
+}
+
 .TodoList input:focus{
 
     outline: none;
