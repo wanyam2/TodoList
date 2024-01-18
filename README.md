@@ -38,4 +38,12 @@ TodoEditor : @Boyeon-Shin
 - 추가 버튼 내부 글씨 크기 및 위치 조정
 - 각 컴포넌트 간 구분선 추가
 
+(2)
+
+![image](https://github.com/wanyam2/TodoList/assets/131340668/782b7c64-6447-49cf-b28b-66b761a67f1b)
+
+- 검색어 입력창 너비 조절
+- 체크박스 활성화
+- 인덱스 버튼 크기 조정
+
 </div>
