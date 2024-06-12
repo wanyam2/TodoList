@@ -1,0 +1,34 @@
+### 앱 초기 설정
+GET https://{{host}}:{{port}}
+Accept: text/plain
+
+####
+GET https://{{host}}:{{port}}/todos
+Accept: application/json
+
+####
+POST https://{{host}}:{{port}}/todos
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "test integration",
+  "status": "progress"
+}
+
+###
+< {%
+    request.variables.set("reqId",client.global.get("maxId"))
+%}
+PATCH https://{{host}}:{{port}}/todos/5
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "update test integration",
+  "status": "done"
+}
+
+###
+DELETE https://{{host}}:{{port}}/todos/7
+Accept: application/json
